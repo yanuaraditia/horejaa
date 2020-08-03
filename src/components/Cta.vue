@@ -1,7 +1,7 @@
 <template>
     <section class="hero is-primary has-text-centered">
         <div class="hero-body">
-            <div class="container is-0-mobile">
+            <div class="container is-fluid">
                 <div class="columns">
                     <div class="column is-8-desktop has-text-left-desktop">
                         <p>DISCOVER HOW TO REDUCE TRANSIT TIMES AND SHIPPING COSTS.</p>
