@@ -5,7 +5,7 @@
         <div class="columns">
           <div class="column is-6-desktop">
             <g-image alt="Example image" src="~/favicon.png" width="135" />
-            <h1 class="title is-1-desktop is-3-mobile"><span class="has-text-weight-normal">Permudah bisnis anda dengan aplikasi</span> Horejaa</h1>
+            <h1 class="title is-1-desktop is-4-mobile"><span class="has-text-weight-normal">Permudah bisnis anda dengan aplikasi</span> Horejaa</h1>
             <p class="subtitle font-primary">Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier. Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka anda</p>
             <p class="home-links">
               <g-link to="/about" class="button is-primary is-rounded">Tentang Kami</g-link>
