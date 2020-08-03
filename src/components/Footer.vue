@@ -49,25 +49,6 @@ export default {
         webShareApiSupported() {
             return navigator
         }
-    },
-    methods: {
-        canShare() {
-            if(navigator.share) {
-                this.isShare = true
-            }
-        },
-        shareLink() {
-            navigator.share({
-                title: 'Horejaa Application',
-                text: 'Unduh sekarang juga.',
-                url: 'http://palaganfoodsupplier.id/',
-            })
-                .then(() => console.log('Successful share'))
-                .catch((error) => console.log('Error sharing', error));
-        }
-    },
-    created() {
-        this.canShare()
     }
 }
 </script>
