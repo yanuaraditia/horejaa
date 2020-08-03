@@ -6,9 +6,7 @@
           <div class="column is-6-desktop">
             <g-image alt="Example image" src="~/favicon.png" width="135" />
             <h1 class="title is-1"><span class="has-text-weight-normal">Permudah bisnis anda dengan aplikasi</span> Horejaa</h1>
-            <p class="subtitle font-primary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-            </p>
+            <p class="subtitle font-primary">Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier. Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka anda</p>
             <p class="home-links">
               <g-link to="/about" class="button is-primary is-rounded">Tentang Kami</g-link>
               <button type="button" class="button is-outlined is-primary is-rounded" @click="showForm()">Daftar</button>
