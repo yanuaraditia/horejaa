@@ -2,8 +2,8 @@
   <Layout>
     <section class="section">
       <div class="container is-fluid">
-        <h1 class="title is-1">About us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+        <h1 class="title is-1">Tentang Kami</h1>
+        <p>Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka anda.</p>
       </div>
     </section>
   </Layout>
@@ -12,7 +12,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About us'
+    title: 'Tentang'
   }
 }
 </script>

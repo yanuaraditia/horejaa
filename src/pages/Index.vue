@@ -11,7 +11,7 @@
             </p>
             <p class="home-links">
               <a href="#" target="_blank" class="button is-primary is-rounded" rel="noopener">About Us</a>
-              <a href="#" target="_blank" rel="noopener" class="button is-primary is-outlined is-rounded">GitHub</a>
+              <button type="button" class="button is-outlined is-primary is-rounded" @click="showForm()">Daftar</button>
             </p>
           </div>
         </div>
@@ -22,8 +22,23 @@
 
 <script>
 export default {
+  data() {
+    return {
+      email: null
+    }
+  },
   metaInfo: {
     title: 'Hello, world!'
+  },
+  methods: {
+    showForm() {
+      var mail = prompt("Harap masukkan e-mail perusahaan anda:")
+      if(mail == null || mail == "") {
+        this.email = null
+      } else {
+        this.email = mail
+      }
+    }
   }
 }
 </script>
