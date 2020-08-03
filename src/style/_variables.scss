@@ -4,6 +4,7 @@
 // Set your colors
 $primary: #00a672;
 $primary-invert: findColorInvert($primary);
+$primary-dark: #006343;
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
 
@@ -35,4 +36,14 @@ $secondary-font: "Sora", sans-serif;
 @import "~buefy/src/scss/buefy";
 .font-primary {
     font-family: $font-family!important;
+}
+.has-background-primary-dark {
+    color: $white;
+    background: $primary-dark;
+    a {
+        color: #e0e0e0;
+        &:hover {
+            color: #fff;
+        }
+    }
 }
