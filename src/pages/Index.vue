@@ -14,6 +14,9 @@
               <button type="button" class="button is-outlined is-primary is-rounded" @click="showForm()">Daftar</button>
             </p>
           </div>
+          <div class="column is-6-desktop">
+            <g-image src="~/images/banner-front.jpg" width="400px" blur="3" class="float-right"></g-image>
+          </div>
         </div>
       </div>
     </section>
