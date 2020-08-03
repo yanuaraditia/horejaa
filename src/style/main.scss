@@ -1,2 +1,6 @@
 @import '_variables';
 @import '_footer';
+@import '_all';
+html, body {
+    font-family: $font-family;
+}

@@ -9,4 +9,8 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(Buefy)
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  head.link.push({
+    href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sora:wght@400;500;700&display=swap',
+    rel: 'stylesheet'
+  })
 }

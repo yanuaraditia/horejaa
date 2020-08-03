@@ -26,6 +26,13 @@ $link: $primary;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
+// Font
+$font-family: "Roboto", sans-serif;
+$secondary-font: "Sora", sans-serif;
+
 // Import Bulma and Buefy styles
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
+.font-primary {
+    font-family: $font-family!important;
+}

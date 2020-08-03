@@ -20,11 +20,8 @@
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Daftar</strong>
-                    </a>
-                    <a class="button is-light">
-                        Masuk
+                    <a class="button is-dark is-outlined is-rounded">
+                        <strong>Get Started</strong>
                     </a>
                 </div>
             </b-navbar-item>
