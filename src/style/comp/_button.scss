@@ -9,4 +9,8 @@ $btn-padd       : 13.5px 30px;
     &.is-rounded {
         padding: $btn-padd!important;
     }
+    &.is-link {
+        border: none!important;
+        box-shadow: none!important;
+    }
 }
