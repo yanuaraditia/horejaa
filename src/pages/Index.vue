@@ -10,7 +10,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
             </p>
             <p class="home-links">
-              <a href="#" target="_blank" class="button is-primary is-rounded" rel="noopener">About Us</a>
+              <g-link to="/about" class="button is-primary is-rounded">Tentang Kami</g-link>
               <button type="button" class="button is-outlined is-primary is-rounded" @click="showForm()">Daftar</button>
             </p>
           </div>
