@@ -18,9 +18,6 @@
         </template>
 
         <template slot="end">
-            <b-navbar-item tag="router-link" :to="{ path: '/about' }">
-            Log in
-            </b-navbar-item>
             <b-navbar-item tag="div">
                 <div class="buttons">
                     <a class="button is-outlined has-text-primary">
