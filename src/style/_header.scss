@@ -5,7 +5,7 @@
     right: 0;
     z-index: 1024px;
     background: rgba($color: $white, $alpha: .85);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px) grayscale(75%);
     padding: .35rem .75rem;
     .button {
         border-radius: 1000px;
@@ -21,17 +21,25 @@
                     position: relative;
                     font-weight: bold;
                     color: $black;
-                    &::after {
-                        content: "";
-                        height: 3px;
-                        background: $primary;
-                        position: absolute;
-                        left: 0;
-                        right: 0;
-                        bottom: -.35rem;
+                    @media screen and (min-width: 992px) {
+                        &::after {
+                            content: "";
+                            height: 3px;
+                            background: $primary;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: -.35rem;
+                        }
                     }
                 }
             }
+        }
+    }
+    &-menu {
+        @media screen and (max-width: 991px) {
+            background: transparent;
+            box-shadow: none;
         }
     }
 }
