@@ -47,7 +47,7 @@ export default {
     },
     computed: {
         webShareApiSupported() {
-            return navigator.share
+            return navigator
         }
     },
     methods: {
