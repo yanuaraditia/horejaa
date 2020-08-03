@@ -1,3 +1,11 @@
+$btn-padd       : 13.5px 30px;
 .button {
     font-family: $secondary-font;
+    padding: $btn-padd;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    height: auto;
+    &.is-rounded {
+        padding: $btn-padd!important;
+    }
 }

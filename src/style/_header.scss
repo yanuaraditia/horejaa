@@ -5,5 +5,9 @@
     right: 0;
     z-index: 1024px;
     box-shadow: 60px 40px 60px 0 rgba(19, 23, 32, 0.1);
-    padding: .5rem 1rem;
+    padding: .35rem .75rem;
+    .button {
+        border-radius: 1000px;
+        padding: 10px 30px !important;
+    }
 }
