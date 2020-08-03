@@ -20,11 +20,16 @@
         </div>
       </div>
     </section>
+    <Cta/>
   </Layout>
 </template>
 
 <script>
+import Cta from '~/components/Cta.vue'
 export default {
+  components: {
+    Cta
+  },
   data() {
     return {
       email: null
