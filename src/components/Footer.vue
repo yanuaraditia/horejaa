@@ -4,10 +4,9 @@
             <div class="columns is-flex is-multiline">
                 <div class="column is-12-mobile is-8-desktop">
                     <ul class="footer-link">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Terms of Use</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                     <p>Copyright &copy; 2020 by Palagan Food Supplier</p>
