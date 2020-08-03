@@ -8,6 +8,7 @@
     backdrop-filter: blur(8px) grayscale(75%);
     padding: .35rem .75rem;
     .button {
+        background: transparent;
         border-radius: 1000px;
         padding: 7px 25px !important;
     }
@@ -15,7 +16,6 @@
         .navbar-item {
             padding: 0.5rem 1rem;
             color: $dark;
-            margin: 0 .5rem;
             &.router-link {
                 &-exact-active {
                     position: relative;

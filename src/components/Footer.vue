@@ -9,7 +9,7 @@
                         <li><a href="#">Terms of Use</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
-                    <p>Copyright &copy; 2020 by Palagan Food Supplier</p>
+                    <p>Copyright &copy; 2020 by <strong>Palagan Food Supplier</strong></p>
                 </div>
                 <div class="column is-12-mobile is-4-desktop">
                     <ul class="footer-social">
