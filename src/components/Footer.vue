@@ -45,6 +45,11 @@ export default {
             isShare: false
         }
     },
+    computed: {
+        webShareApiSupported() {
+            return navigator.share
+        }
+    },
     methods: {
         canShare() {
             if(navigator.share) {
