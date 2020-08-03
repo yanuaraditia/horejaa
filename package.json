@@ -1,0 +1,16 @@
+{
+  "name": "horejaa",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "buefy": "^0.8.20",
+    "gridsome": "^0.7.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.44.1"
+  }
+}

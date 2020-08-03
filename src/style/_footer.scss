@@ -1,0 +1,32 @@
+.footer {
+    &-link {
+        list-style: none;
+        padding: 0;
+        @media screen and (min-width: 992px) {
+            display: flex;
+        }
+        li {
+            @media screen and (min-width: 992px) {
+                float: left;
+            }
+            a {
+                display: block;
+            }
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+    &-social {
+        list-style: none;
+        display: flex;
+        @media screen and (min-width: 992px) {
+            justify-content: flex-end;
+        }
+        li {
+            a {
+                display: block;
+            }
+        }
+    }
+}
