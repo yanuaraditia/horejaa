@@ -20,7 +20,7 @@
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-dark is-outlined is-rounded">
+                    <a class="button is-outlined has-text-primary is-rounded">
                         <strong>Get Started</strong>
                     </a>
                 </div>
@@ -35,3 +35,7 @@ query {
   }
 }
 </static-query>
+<script>
+export default {
+}
+</script>

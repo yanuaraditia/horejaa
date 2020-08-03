@@ -3,3 +3,10 @@
 .title, .subtitle {
     font-family: $secondary-font;
 }
+
+body {
+    min-height: 100vh;
+}
+.wrapper {
+    margin-top: 4rem;
+}
