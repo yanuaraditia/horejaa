@@ -8,10 +8,17 @@
                         <h2 class="title is-2">The Guide to Offering Affordable 2-Day Shipping</h2>
                     </div>
                     <div class="column is-4-desktop has-text-right-desktop">
-                        <button class="button is-white is-outlined is-rounded">Download Guide</button>
+                        <button class="button is-white has-text-primary is-rounded mat">Download Guide</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+<style lang="scss">
+.mat {
+    @media screen and (min-width: 992px) {
+        margin-top: 35px;
+    }
+}
+</style>
