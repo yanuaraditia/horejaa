@@ -28,7 +28,7 @@ export default {
     }
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Beranda'
   },
   methods: {
     showForm() {
