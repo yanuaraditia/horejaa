@@ -13,9 +13,11 @@
           </div>
           <div class="column is-6-desktop">
             <div class="lander">
+              <span class="dotted-box"></span>
               <g-image src="~/images/banner-front.jpg" class="rad-5" width="400px" blur="3" radius="3"></g-image>
               <blockquote>
                 <p>"Kami telah melihat penghematan biaya 25,3% sejak beralih ke Horejaa, karena kami menggunakan tiga pusat pemenuhan mereka."</p>
+                <img src="/quote.svg" alt="Quote">
               </blockquote>
             </div>
           </div>
@@ -49,6 +51,7 @@
         <div class="columns">
           <div class="column is-12-mobile is-6-desktop has-text-centered">
             <div class="lunar" style="max-width: 400px; margin: 0 auto;">
+              <span class="dotted-box"></span>
               <g-image src="~/images/warehouse.jpg" width="400px" blur="3" class="rad-5"></g-image>
             </div>
           </div>
@@ -111,8 +114,14 @@ export default {
 .lander {
   margin: 0 auto;
   max-width: 400px;
+  position: relative;
+  .dotted-box {
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    transform: translateY(-30px) translateX(30px);
+  }
   @media screen and (min-width: 1024px) {
-    position: relative;
     &::after {
       content: '';
       background: #eeeeee;
@@ -133,15 +142,35 @@ export default {
       left: -10px;
       z-index: 5;
     }
-    img {
-      position: relative;
-      z-index: 4;
-    }
+  }
+  img {
+    position: relative;
+    z-index: 4;
   }
   @media screen and (max-width: 1023px) {
     blockquote {
       display: none;
     }
+  }
+  blockquote {
+    img {
+      position: absolute;
+      top: -10px;
+      left: -20px;
+    }
+  }
+}
+.lunar {
+  position: relative;
+  .dotted-box {
+    position: absolute;
+    $offset: -30px;
+    transform: translateX($offset) translateY($offset);
+    z-index: 4;
+  }
+  img {
+    position: relative;
+    z-index: 5;
   }
 }
 </style>
