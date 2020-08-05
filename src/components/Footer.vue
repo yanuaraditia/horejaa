@@ -10,7 +10,7 @@
                         <li><a href="#">Terms of Use</a></li>
                         <li><g-link to="/privacy-policy">Privacy Policy</g-link></li>
                     </ul>
-                    <p>Copyright &copy; ©{{ new Date().getFullYear() }} by <strong>Palagan Food Supplier</strong></p>
+                    <p>Copyright &copy; {{ new Date().getFullYear() }} by <strong>Palagan Food Supplier</strong></p>
                 </div>
                 <div class="column is-12-mobile is-4-desktop">
                     <ul class="footer-social">
