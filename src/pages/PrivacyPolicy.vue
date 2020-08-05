@@ -1,17 +1,16 @@
 <template>
     <Layout>
-        <section class="section">
-            <div class="container is-fluid">
-                <h1 class="title is-1 has-text-centered">Kebijakan Privasi</h1>
-                <p class="subtitle has-text-centered">Akan segera kami susun untuk menunjang penggunaan aplikasi kami.</p>
-                <g-image src="~/images/banner-front.jpg" fit="cover" height="450px"></g-image>
-            </div>
-        </section>
+        <Jumbotron title="Privacy Policy" description="Sedang kami siapkan 😊"/>
     </Layout>
 </template>
 
 <script>
+import Jumbotron from '~/components/Jumbotron.vue'
+
 export default {
+    components: {
+        Jumbotron,
+    },
     metaInfo: {
         title: 'Kebijakan Privasi'
     }
