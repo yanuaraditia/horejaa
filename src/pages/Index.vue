@@ -119,7 +119,9 @@ export default {
     position: absolute;
     z-index: 4;
     right: 0;
-    transform: translateY(-30px) translateX(30px);
+    @media screen and (min-width: 1024px) {
+      transform: translateY(-30px) translateX(30px);
+    }
   }
   @media screen and (min-width: 1024px) {
     &::after {
