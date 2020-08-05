@@ -13,7 +13,7 @@
           </div>
           <div class="column is-6-desktop">
             <div class="lander">
-              <g-image src="~/images/banner-front.jpg" width="400px" blur="3"></g-image>
+              <g-image src="~/images/banner-front.jpg" class="rad-5" width="400px" blur="3" radius="3"></g-image>
               <blockquote>
                 <p>"Kami telah melihat penghematan biaya 25,3% sejak beralih ke Horejaa, karena kami menggunakan tiga pusat pemenuhan mereka."</p>
               </blockquote>
@@ -40,6 +40,35 @@
           <div class="column is-6-mobile is-3-desktop has-text-centered">
             <h3 class="title is-1">30+</h3>
             <h5 class="subtitle is-6">Partnership</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="warehouse section">
+      <div class="container-fluid">
+        <div class="columns">
+          <div class="column is-12-mobile is-6-desktop has-text-centered">
+            <div class="lunar" style="max-width: 400px; margin: 0 auto;">
+              <g-image src="~/images/warehouse.jpg" width="400px" blur="3" class="rad-5"></g-image>
+            </div>
+          </div>
+          <div class="column is-12-mobile is-6-desktop">
+            <div class="lunar-x" style="max-width: 500px">
+              <h2 class="title is-1">Jaringan pusat pemenuhan yang kuat</h2>
+              <p>Kami membantu Anda menentukan penempatan inventaris yang optimal di seluruh jaringan pemenuhan yang berkembang untuk meningkatkan kecepatan pengiriman dan mengurangi biaya pengiriman. Anda dapat mengukur secara efisien dengan mendistribusikan inventaris ke gudang tambahan seiring waktu.</p>
+              <ul class="list-group">
+                <li>Jangkauan pengiriman 2 hari</li>
+                <li>Sistem gudang terintegrasi</li>
+                <li>Gratis layanan pengiriman</li>
+              </ul>
+              <hr/>
+              <!-- <div class="columns is-flex">
+                <div class="column">
+                  <g-image src="~/images/pr-ajinomoto.png" width="70px" style="filter: grayscale(100%); opacity: .5"></g-image>
+                </div>
+              </div> -->
+              <small>Kami mengirim ke mana saja di dunia yang dikirimkan oleh operator.</small>
+            </div>
           </div>
         </div>
       </div>
