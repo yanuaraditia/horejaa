@@ -20,9 +20,7 @@
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-outlined has-text-primary">
-                        <strong>Get Started</strong>
-                    </a>
+                    <g-link class="button is-outlined has-text-primary" to="/register">Get Started</g-link>
                 </div>
             </b-navbar-item>
         </template>

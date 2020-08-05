@@ -51,3 +51,8 @@ body {
 .toast {
     backdrop-filter: blur(5px);
 }
+.container {
+    &.is-small {
+        max-width: 550px;
+    }
+}

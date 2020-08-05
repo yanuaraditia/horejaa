@@ -1,17 +1,7 @@
 <template>
     <Layout>
-        <section class="hero is-medium">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-12-mobile is-6-desktop">
-                            <h1 class="title is-1">Contact Us</h1>
-                            <p>We’re here to help, with 24/7 outstanding support. Ask us about the product, the free trial, our resources or features. Whatever you need help with.</p>
-                            <div class="m-5"></div>
-                            <strong>Horejaa address</strong>
-                            <p>Jl. Watugede No.58, Sariharjo, Ngaglik, Kabupaten Sleman, <br/>Daerah Istimewa Yogyakarta 55581</p>
-                        </div>
-                        <div class="column is-12-mobile is-6-desktop">
+        <section class="section is-medium">
+            <div class="container is-small">
                             <form>
                                 <b-field label="Nama Lengkap">
                                     <b-input
@@ -36,6 +26,7 @@
                                              v-model="form.phone"
                                              maxlength="70"
                                              minlength="5"
+                                             placeholder="08xxx"
                                              type="text"></b-input>
                                         </b-field>
                                     </div>
@@ -48,10 +39,7 @@
                                 </b-field>
                                 <button class="button is-primary is-fullwidth is-medium" v-on:click="send" v-if="isSend" type="button">Contact Us</button>
                                 <b-button class="is-medium is-fullwidth is-primary" v-else loading>Contact Us</b-button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                            </form> 
             </div>
         </section>
     </Layout>
