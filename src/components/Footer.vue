@@ -6,7 +6,7 @@
                     <ul class="footer-link">
                         <li><g-link to="/about">Tentang Kami</g-link></li>
                         <li v-if="isShare"><a href="" type="button" @click="shareLink()">Bagikan</a></li>
-                        <li><a href="#">Kontak</a></li>
+                        <li><g-link to="/contact">Kontak</g-link></li>
                         <li><a href="#">Terms of Use</a></li>
                         <li><g-link to="/privacy-policy">Privacy Policy</g-link></li>
                     </ul>
