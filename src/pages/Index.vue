@@ -4,9 +4,9 @@
       <div class="container is-fluid">
         <div class="columns">
           <div class="column is-6-desktop">
-            <h1 class="title is-1 is-4-mobile" style="margin-bottom: 3rem">Dipetik, dikemas,<br/> dan dikirim.</h1>
-            <p class="subtitle font-primary">Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier. Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka Anda.</p>
-            <p class="subtitle font-primary">Dengan layanan pemenuhan yang andal, gudang di dekat pelanggan Anda, dan teknologi terhubung yang mendukung jaringan pemenuhan kami, kami membantu meningkatkan waktu transit, biaya pengiriman, dan pengalaman pengiriman bagi pelanggan Anda.</p>
+            <h1 class="title is-1 is-4-mobile">Dipetik, dikemas,<br/> dan dikirim.</h1>
+            <p class="font-primary" style="margin-bottom: 10px">Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier. Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka Anda.</p>
+            <p class="font-primary" style="margin-bottom: 20px">Dengan layanan pemenuhan yang andal, gudang di dekat pelanggan Anda, dan teknologi terhubung yang mendukung jaringan pemenuhan kami, kami membantu meningkatkan waktu transit, biaya pengiriman, dan pengalaman pengiriman bagi pelanggan Anda.</p>
             <p class="home-links">
               <g-link to="/register" class="button is-primary is-medium is-rounded">Coba Sekarang</g-link>
             </p>
