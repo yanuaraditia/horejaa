@@ -5,7 +5,7 @@
     right: 0;
     z-index: 1024px;
     background: rgba($color: $white, $alpha: .85);
-    backdrop-filter: blur(8px) grayscale(75%);
+    backdrop-filter: blur(15px) grayscale(75%);
     padding: .35rem .75rem;
     .button {
         background: transparent;
@@ -40,6 +40,14 @@
         @media screen and (max-width: 991px) {
             background: transparent;
             box-shadow: none;
+        }
+    }
+    &-burger {
+        border-radius: 1000px;
+        span {
+            background: $black;
+            width: 20px;
+            left: calc(50% - 10px);
         }
     }
 }
