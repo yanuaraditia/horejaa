@@ -49,7 +49,7 @@ export default {
         webShareApiSupported() {
             this.isShare = true
             return navigator
-        }
-    }
+        },
+    },
 }
 </script>
