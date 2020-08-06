@@ -2,10 +2,7 @@
     <b-navbar v-bind:data-scroll="isScroll">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <img
-                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-                    :alt="$static.metadata.siteName"
-                >
+                <g-image :alt="$static.metadata.siteName" src="~/images/pr-ajinomoto.png" width="50px"></g-image>
             </b-navbar-item>
         </template>
         <template slot="start">
