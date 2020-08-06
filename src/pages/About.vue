@@ -13,8 +13,8 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="columns is-flex">
-          <div class="column is-12-mobile is-3-desktop">
+        <div class="columns is-flex is-multiline">
+          <div class="column is-6-mobile is-3-desktop" v-for="item in dummy" :key="item.id">
             <div class="card people-card">
               <div class="card-image">
                 <figure class="image is-1by1">
@@ -22,47 +22,8 @@
                 </figure>
               </div>
               <div class="card-content">
-                <h2 class="title is-5">John Smith</h2>
-                <p class="subtitle is-6">Kuli</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-12-mobile is-3-desktop">
-            <div class="card people-card">
-              <div class="card-image">
-                <figure class="image is-1by1">
-                  <g-image src="~/images/people/people1.jpg" fit="cover" blur="5"/>
-                </figure>
-              </div>
-              <div class="card-content">
-                <h2 class="title is-5">John Smith</h2>
-                <p class="subtitle is-6">Kuli</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-12-mobile is-3-desktop">
-            <div class="card people-card">
-              <div class="card-image">
-                <figure class="image is-1by1">
-                  <g-image src="~/images/people/people1.jpg" fit="cover" blur="5"/>
-                </figure>
-              </div>
-              <div class="card-content">
-                <h2 class="title is-5">John Smith</h2>
-                <p class="subtitle is-6">Kuli</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-12-mobile is-3-desktop">
-            <div class="card people-card">
-              <div class="card-image">
-                <figure class="image is-1by1">
-                  <g-image src="~/images/people/people1.jpg" fit="cover" blur="5"/>
-                </figure>
-              </div>
-              <div class="card-content">
-                <h2 class="title is-5">John Smith</h2>
-                <p class="subtitle is-6">Kuli</p>
+                <h2 class="title is-5">{{item.name}}</h2>
+                <p class="subtitle is-6">{{item.position}}</p>
               </div>
             </div>
           </div>
@@ -81,6 +42,32 @@ export default {
   },
   metaInfo: {
     title: 'Tentang'
+  },
+  data() {
+    return {
+      dummy: [
+        {
+          id: 1,
+          name: 'Joni',
+          position: 'CEO'
+        },
+        {
+          id: 2,
+          name: 'Eko',
+          position: 'CFO'
+        },
+        {
+          id: 3,
+          name: 'Agus',
+          position: 'CTO'
+        },
+        {
+          id: 4,
+          name: 'Paijem',
+          position: 'VP Engineer'
+        },
+      ]
+    }
   }
 }
 </script>
