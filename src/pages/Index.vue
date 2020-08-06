@@ -10,6 +10,13 @@
             <p class="home-links">
               <g-link to="/register" class="button is-primary is-medium is-rounded">Coba Sekarang</g-link>
             </p>
+            <hr>
+            <ul class="list-group">
+              <li>Bring 13% cost savings to your bottom line</li>
+              <li>Increase your average order value by 97%</li>
+              <li>Reduce your cart abandonment rate by 18%</li>
+              <li>Save your team 120 hours per week</li>
+            </ul>
           </div>
           <div class="column is-6-desktop">
             <div class="lander">
@@ -47,7 +54,7 @@
       </div>
     </section>
     <section class="warehouse section">
-      <div class="container-fluid">
+      <div class="container is-fluid">
         <div class="columns">
           <div class="column is-12-mobile is-6-desktop has-text-centered">
             <div class="lunar" style="max-width: 400px; margin: 0 auto;">
