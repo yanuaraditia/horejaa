@@ -34,13 +34,9 @@
     <section class="section zed">
       <div class="container is-fluid">
         <div class="columns is-multiline is-flex">
-          <div class="column is-6-mobile is-4-desktop has-text-centered">
-            <h3 class="title is-1">99.91%</h3>
-            <h5 class="subtitle is-6">Akurasi tinggi</h5>
-          </div>
-          <div class="column is-6-mobile is-4-desktop has-text-centered">
-            <h3 class="title is-1">98%</h3>
-            <h5 class="subtitle is-6">Integrasi sistem</h5>
+          <div class="column is-6-mobile is-6-desktop has-text-centered">
+            <h3 class="title is-1">1K+</h3>
+            <h5 class="subtitle is-6">Transaksi per-bulan</h5>
           </div>
           <div class="column is-6-mobile is-4-desktop has-text-centered">
             <h3 class="title is-1">35+</h3>
