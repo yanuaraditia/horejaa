@@ -34,21 +34,17 @@
     <section class="section zed">
       <div class="container is-fluid">
         <div class="columns is-multiline is-flex">
-          <div class="column is-6-mobile is-3-desktop has-text-centered">
+          <div class="column is-6-mobile is-4-desktop has-text-centered">
             <h3 class="title is-1">99.91%</h3>
             <h5 class="subtitle is-6">Akurasi tinggi</h5>
           </div>
-          <div class="column is-6-mobile is-3-desktop has-text-centered">
+          <div class="column is-6-mobile is-4-desktop has-text-centered">
             <h3 class="title is-1">3.500+</h3>
             <h5 class="subtitle is-6">Produk telah tersalurkan</h5>
           </div>
-          <div class="column is-6-mobile is-3-desktop has-text-centered">
-            <h3 class="title is-1">90%</h3>
-            <h5 class="subtitle is-6">Integrasi sistem</h5>
-          </div>
-          <div class="column is-6-mobile is-3-desktop has-text-centered">
-            <h3 class="title is-1">30+</h3>
-            <h5 class="subtitle is-6">Partnership</h5>
+          <div class="column is-6-mobile is-4-desktop has-text-centered">
+            <h3 class="title is-1">35+</h3>
+            <h5 class="subtitle is-6">Outlet Partnership</h5>
           </div>
         </div>
       </div>
