@@ -2,22 +2,22 @@
     <b-navbar v-bind:data-scroll="isScroll">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <g-image :alt="$static.metadata.siteName" src="~/images/pr-ajinomoto.png" width="50px"></g-image>
+                <g-image :alt="$static.metadata.siteName" src="~/images/horekaa.png" width="120px"></g-image>
             </b-navbar-item>
         </template>
-        <template slot="start">
+        <!-- <template slot="start">
             <b-navbar-item tag="router-link" :to="{ path: '/product' }">
                 Product
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/about' }">
                 About
             </b-navbar-item>
-        </template>
-
+        </template> -->
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <g-link class="button is-outlined has-text-primary" to="/register">Get Started</g-link>
+                    <a href="mailto:kharisma.fr@gmail.com" class="button is-outlined has-text-primary">Hubungi Kami</a>
+                    <!-- <g-link class="button is-outlined has-text-primary" to="/register">Get Started</g-link> -->
                 </div>
             </b-navbar-item>
         </template>

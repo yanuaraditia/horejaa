@@ -7,6 +7,9 @@
     background: rgba($color: $white, $alpha: .85);
     backdrop-filter: blur(15px) grayscale(75%);
     padding: .35rem .75rem;
+    img {
+        max-height: 4rem!important;
+    }
     .button {
         background: transparent;
         border-radius: 1000px;

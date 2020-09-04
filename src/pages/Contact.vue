@@ -8,7 +8,7 @@
                             <h1 class="title is-1">Contact Us</h1>
                             <p>We’re here to help, with 24/7 outstanding support. Ask us about the product, the free trial, our resources or features. Whatever you need help with.</p>
                             <div class="m-5"></div>
-                            <strong>Horejaa address</strong>
+                            <strong>Horekaa address</strong>
                             <p>Jl. Watugede No.58, Sariharjo, Ngaglik, Kabupaten Sleman, <br/>Daerah Istimewa Yogyakarta 55581</p>
                         </div>
                         <div class="column is-12-mobile is-6-desktop">

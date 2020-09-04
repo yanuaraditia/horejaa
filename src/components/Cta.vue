@@ -4,11 +4,12 @@
             <div class="container is-fluid">
                 <div class="columns">
                     <div class="column is-8-desktop has-text-left-desktop">
-                        <p>TEMUKAN KEMUDAHAN DALAM BERBISNIS.</p>
-                        <h2 class="title is-2">Siap mempermudah bisnis anda dengan kami?</h2>
+                        <p>Mudahkan bisnismu.</p>
+                        <h2 class="title is-2">Siap berbisnis anda dengan kami?</h2>
                     </div>
                     <div class="column is-4-desktop has-text-right-desktop">
-                        <g-link to="/register" class="button is-white has-text-primary is-rounded mat">Coba Sekarang</g-link>
+                        <a href="mailto:kharisma.fr@gmail.com" class="button is-white has-text-primary is-rounded mat">Menarik!</a>
+                        <!-- <g-link to="/register" class="button is-white has-text-primary is-rounded mat">Coba Sekarang</g-link> -->
                     </div>
                 </div>
             </div>

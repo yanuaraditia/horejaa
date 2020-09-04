@@ -1,21 +1,21 @@
 <template>
   <Layout>
-    <section class="section">
+    <section class="section zed">
       <div class="container is-fluid">
         <div class="columns">
           <div class="column is-6-desktop">
-            <h1 class="title is-1 is-4-mobile">Dipetik, dikemas,<br/> dan dikirim.</h1>
-            <p class="font-primary" style="margin-bottom: 10px">Horeja adalah aplikasi yang dikembangkan dibawah bisnis Palagan Food Supplier. Aplikasi ini dibuat dengan tujuan untuk mempermudah pemesanan barang, didukung dengan beberapa fitur unggulan serta katalog barang yang lengkap sehingga memenuhi kebutuhan bisnis horeka Anda.</p>
-            <p class="font-primary" style="margin-bottom: 20px">Dengan layanan pemenuhan yang andal, gudang di dekat pelanggan Anda, dan teknologi terhubung yang mendukung jaringan pemenuhan kami, kami membantu meningkatkan waktu transit, biaya pengiriman, dan pengalaman pengiriman bagi pelanggan Anda.</p>
+            <h1 class="title is-1 is-4-mobile">Mudah, efisien, <br>dan tepat waktu</h1>
+            <p class="font-primary" style="margin-bottom: 10px">Palagan Food Supplier, kami adalah supplier yang bergerak di bidang bahan pokok pangan khususnya untuk hotel, restoran, dan kafe. Demi menunjang kemudahan dan kelancaran bisnis usaha anda, kami menghadirkan sebuah aplikasi yang bernama Horekaa. </p>
+            <p class="font-primary" style="margin-bottom: 20px">Horeka memiliki tujuan untuk mempermudah pemesanan bahan bahan baku kebutuhan bisnis anda serta melakukan pencegahan terhadap kelalaian untuk melakukan pemesanan bahan yang sering terjadi di industri ini.</p>
             <p class="home-links">
-              <g-link to="/register" class="button is-primary is-medium is-rounded">Coba Sekarang</g-link>
+              <a href="mailto:kharisma.fr@gmail.com" class="button is-primary is-medium is-rounded">Yuk Cobain</a>
+              <!-- <g-link to="/register" class="button is-primary is-medium is-rounded">Coba Sekarang</g-link> -->
             </p>
             <hr>
             <ul class="list-group">
-              <li>Bring 13% cost savings to your bottom line</li>
-              <li>Increase your average order value by 97%</li>
-              <li>Reduce your cart abandonment rate by 18%</li>
-              <li>Save your team 120 hours per week</li>
+              <li>Mudahnya memesan barang</li>
+              <li>Rekapan transaksi (pembelian dan pemesanan barang)</li>
+              <li>Rekapan penggunaan bahan baku</li>
             </ul>
           </div>
           <div class="column is-6-desktop">
@@ -23,7 +23,7 @@
               <span class="dotted-box"></span>
               <g-image src="~/images/banner-front.jpg" class="rad-5" width="400px" blur="3" radius="3"></g-image>
               <blockquote>
-                <p>"Kami telah melihat penghematan biaya 25,3% sejak beralih ke Horejaa, karena kami menggunakan tiga pusat pemenuhan mereka."</p>
+                <p>"Kami telah melihat penghematan biaya 25,3% sejak beralih ke Horekaa, karena kami menggunakan tiga pusat pemenuhan mereka."</p>
                 <img src="/quote.svg" alt="Quote">
               </blockquote>
             </div>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section zed">
       <div class="container is-fluid">
         <div class="columns is-multiline is-flex">
           <div class="column is-6-mobile is-3-desktop has-text-centered">
@@ -53,7 +53,7 @@
         </div>
       </div>
     </section>
-    <section class="warehouse section">
+    <section class="warehouse section zed mar">
       <div class="container is-fluid">
         <div class="columns">
           <div class="column is-12-mobile is-6-desktop has-text-centered">
@@ -67,16 +67,11 @@
               <h2 class="title is-1">Jaringan pusat pemenuhan yang kuat</h2>
               <p>Kami membantu Anda menentukan penempatan inventaris yang optimal di seluruh jaringan pemenuhan yang berkembang untuk meningkatkan kecepatan pengiriman dan mengurangi biaya pengiriman. Anda dapat mengukur secara efisien dengan mendistribusikan inventaris ke gudang tambahan seiring waktu.</p>
               <ul class="list-group">
-                <li>Jangkauan pengiriman 2 hari</li>
-                <li>Sistem gudang terintegrasi</li>
-                <li>Gratis layanan pengiriman</li>
+                <li>Sistem kami dapat mempermudah anda dalam memantau stok bahan baku</li>
+                <li>Gratis layanan pengiriman dengan jaminan tepat waktu</li>
+                <li>Katalog barang yang lengkap, bahkan anda dapat melakukan request barang</li>
               </ul>
               <hr/>
-              <!-- <div class="columns is-flex">
-                <div class="column">
-                  <g-image src="~/images/pr-ajinomoto.png" width="70px" style="filter: grayscale(100%); opacity: .5"></g-image>
-                </div>
-              </div> -->
               <small>Kami mengirim ke mana saja di dunia yang dikirimkan oleh operator.</small>
             </div>
           </div>
