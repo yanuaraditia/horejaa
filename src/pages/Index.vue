@@ -35,7 +35,7 @@
       <div class="container is-fluid">
         <div class="columns is-multiline is-flex">
           <div class="column is-6-mobile is-6-desktop has-text-centered">
-            <h3 class="title is-1">1K+</h3>
+            <h3 class="title is-1">1000+</h3>
             <h5 class="subtitle is-6">Transaksi per-bulan</h5>
           </div>
           <div class="column is-6-mobile is-4-desktop has-text-centered">
